@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+html {
+    width: auto;
+    height: auto;
+    margin-top:  10px;
+    background-color: rgb(whitesmoke);
+}
+
+head {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:   26px;
+    line-height: 32px;
+    color: whitesmoke;
+    letter-spacing: 0.8px;
+    text-rendering: optimizeLegibility;
+    font display: fallback;
+    webkit font smoothing: antialiased;
+}
+
+.titel{
+    text-align: left;
+    margin-left: 18px;
+    background-color: whitesmoke;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.untertitel{
+    text-align: left;
+    margin-left: 18px;
+    margin-top: -30px;
+    background-color: whitesmoke;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    font-weight: 100;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: Helvetica, Arial, sans-serif;
+    
+    font-weight: 300;
+    text-align: left;
+}
+
+.container{
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.container .box .imgBox{
+    position: relative;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.container .box .imgBox img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+
+.container .box:hover .imgBox img{
+    max-width: 100%;
+    transform: scale(1.2);
+}
+
+.container .box .details{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.container .box:hover .details{
+    transform: scaleY(1);
+}
+
+.container .box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 60px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: whitesmoke;
+}
+
+.container .box .details .content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.container .box .details .content p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+a:link{
+    color: whitesmoke;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:focus {
+    color: darkgrey;
+}

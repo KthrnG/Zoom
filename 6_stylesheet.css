@@ -1,0 +1,51 @@
+html {
+    background-color: whitesmoke;
+}
+
+.titel {
+    text-align: left;
+    margin-left: 18px;
+    background-color: whitesmoke;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    font-weight: 100;
+    font-size: 26px;
+    line-height: 32px; 
+}
+
+.untertitel {
+    text-align: left;
+    margin-top: -20px;
+    margin-left: 18px;
+    background-color: whitesmoke;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+*{box-sizing: border-box;}
+
+.zoom {
+    padding: 50px;
+    background-color: grey;
+    background-image: url("Claude%20Monet_French_1840_1926_The%20Beach%20at%20Sainte-Adresse_1867.jpg");
+    background-size: cover;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+            
+.zoom:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+}
+

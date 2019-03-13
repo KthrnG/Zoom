@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+html {
+  font-family: Georgia, Times, serif;
+  font-size:   25px;
+  background-color: whitesmoke;
+}
+
+body {
+  max-width:		96%;
+  background-color: whitesmoke;
+}
+
+header {
+  text-align: left;
+  margin-left: 5px;
+  background-color: whitesmoke;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #949494;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+img.icebound {
+    width: 100%;  
+    display: block;
+    padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+.changeSize {
+  background-image: url("Icebound.jpg");
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+  border: 2px solid;
+  color: orange;
+  resize: both;
+  overflow: scroll;
+}

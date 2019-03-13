@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Untersuchung No.3</title>
+        <link rel="stylesheet" type="text/css" href="3_stylesheet.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(window).scroll(function(){
+            var scroll = $(window).scrollTop(); 
+            $('.zoom img').css({ 
+            width: (100 + scroll/5) + "%"
+                })
+            })
+        </script>
+    </head>
+        <body>
+            <section class="zoom">
+                <img src="Paris.png"/>
+            </section>
+            <div class="title">
+                <p>Untersuchung No.3</p>
+            </div>
+            <div class="untertitel">
+            <p> Gustave Caillebotte, French, 1848-1894, Paris Street – Rainy Day, 1877</p>
+            </div>
+        </body>
+    
+</html>

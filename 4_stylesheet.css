@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+html {
+    width: auto;
+    height: auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    font-size:   25px;
+    color:       rgb(105, 195, 255);
+    margin-top:  10px;
+    background-color: rgb(whitesmoke);
+}
+
+head {
+    text-align: center;
+}
+
+body {
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+.header {
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+@media (max-width: 767px) {
+    .heading h1 {
+        line-height: 32px;
+    }
+}
+
+.content{
+    height: 400px;
+    width: 380px;
+    position: relative;
+    display: block;
+    margin: 50px auto;
+    color: #949494;
+    box-shadow: 10px 10px 60px 10px rgba(0,0,0,0,3);
+}
+
+
+.block{
+    text-align: center;
+}
+
+.e1{
+    width: 200px;
+    height: 150px;
+    left: 0px;
+    top: 10px;
+    position: absolute;
+}
+
+
+.e2{
+    width: 200px;
+    height: 150px;
+    left: 0px;
+    top: 160px;
+    position: absolute;
+}
+
+.e3{
+    width: 200px;
+    height: 150px;
+    left: 200px;
+    top: 160px;
+    position: absolute;
+}
+
+.e4{
+    width: 200px;
+    height: 150px;
+    left: 200px;
+    top: 10px;
+    position: absolute;
+}
+
+.content h1{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.content p{
+    margin: 10px 0 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+.block{
+    text-align: center;
+    -webkit-animation: scaledown 4s. ease;
+    animation: scaledown .4s linear;
+    animation-fill-mode: forwards;
+    transform-origin: 50% 50%;
+
+}
+
+.block:hover{
+    z-index: 100;
+    -webkit-animation: scaledown 4s. ease;
+    animation: scale 0.4s linear;
+    animation-fill-mode: forwards;
+    transform-origin: 50% 50%;
+
+}
+
+@keyframes scaledown{
+    0%{
+        -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    100%{
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+@keyframes scale{
+    0%{
+        -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    100%{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.3);
+    }
+}

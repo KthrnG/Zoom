@@ -1,0 +1,48 @@
+.titel{
+    text-align: left;
+    margin-left: 18px;
+    background-color: whitesmoke;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    font-weight: 100;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.untertitel {
+    text-align: left;
+    margin-left: 18px;
+    margin-top: -15px;
+    background-color: whitesmoke;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  margin-left: 40%;
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #949494;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #949494;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+html {
+  background-color: whitesmoke;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.img {
+  width: 193.93px;
+  height: 200px;
+}
+
+.close {
+  background-image: url("close_icon.png");
+  background-repeat: no-repeat;
+  display: none;
+  bottom: 636px;
+  margin-left: 590px;
+  margin-top: 30px;
+  width: 50px;
+  height:50px;
+  position: relative;
+}
+
+.expand {
+  margin-bottom: 170px;
+  margin-left: -34px;
+  width: 30px;
+  height:30px;
+  pointer-events: none;
+  position: relative;
+}
+
+.img:target{
+    height: 606.04px;
+    width: 625px;
+}
+
+.img:target+.close{
+    display: block;
+}
+
+.img: target+.close+.expand{
+    display: none;
+}
