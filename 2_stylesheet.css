@@ -11,15 +11,27 @@ body {
   background-color: whitesmoke;
 }
 
-header {
-  text-align: left;
+.titel {
   margin-left: 5px;
   background-color: whitesmoke;
+  text-align: left;
   font-family: Helvetica, Arial, sans-serif;
   color: #949494;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 26px;
-  line-height: 32px;
+  line-height: 32px; 
+}
+
+.untertitel {
+  margin-left: 5px;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+  text-align: left;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #949494;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 32px; 
 }
 
 img.icebound {
