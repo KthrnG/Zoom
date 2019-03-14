@@ -21,12 +21,13 @@ head {
 
 .titel{
     text-align: left;
+    margin-top: -20px;
     margin-left: 18px;
     background-color: whitesmoke;
     font-family: Helvetica, Arial, sans-serif;
     color: #949494;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 45px;
 }
 
@@ -38,7 +39,7 @@ head {
     font-family: Helvetica, Arial, sans-serif;
     color: #949494;
     font-weight: 200;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
 }
 
