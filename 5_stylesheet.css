@@ -8,7 +8,7 @@ body {
     background-color: whitesmoke;
 }
 
-header{
+.titel {
     font-family: Helvetica, Arial, sans-serif;
     color: #949494;
     margin-top: 10px;
@@ -16,8 +16,21 @@ header{
     text-align: left;
     font-family: Helvetica, Arial, sans-serif;
     color: #949494;
-    font-weight: 300;
-    font-size: 28px;
+    font-weight: 100;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.untertitel {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    font-weight: 100;
+    font-size: 20px;
     line-height: 30px;
 }
 
