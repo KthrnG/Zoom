@@ -19,7 +19,7 @@ body {
     text-align: left;
 }
 
-.header {
+.titel {
     background-color: whitesmoke;
     margin-top: 10px;
     margin-left: 5px;
@@ -27,8 +27,20 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: #949494;
     font-weight: 300;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 40px;
+}
+
+.untertitel {
+    margin-top: -70px;
+    background-color: whitesmoke;
+    margin-left: 5px;
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 @media (max-width: 767px) {
