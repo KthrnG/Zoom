@@ -34,10 +34,10 @@ body{
 .zoom {
     padding: 50px;
     background-color: grey;
-    background-image: url("Claude%20Monet_French_1840_1926_The%20Beach%20at%20Sainte-Adresse_1867.jpg");
+    background-image: url("Claude%20Monet_French_1840_1926_Arrival%20of%20the%20Normandy%20Train_Gare%20Saint%20Lazare_1877_.jpg");
     background-size: cover;
     transition: transform .2s;
-    width: 200px;
+    width: 250px;
     height: 200px;
     margin: 0 auto;
     margin-top: 50px;
