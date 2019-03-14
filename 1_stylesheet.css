@@ -2,7 +2,7 @@ body{
     background-color: whitesmoke;
 }
 
-header{
+.titel {
     text-align: left;
     margin-left: 18px;
     background-color: whitesmoke;
@@ -13,11 +13,24 @@ header{
     line-height: 32px;
 }
 
+.untertitel {
+    text-align: left;
+    margin-top: -15px;
+    margin-left: 18px;
+    background-color: whitesmoke;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #949494;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 32px;  
+}
+
 .window {
     width: 100%;
 }
 
 img{
+    margin-top: 50px;
     position: absolute;
     top: 10vh;
     left: 2vw; 
