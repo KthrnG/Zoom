@@ -2,8 +2,8 @@
 
 
 ### Allgemeines
-    • Codecademy, abrufbar unter: https://www.codecademy.com/ 
-    • GitHub Pages, abrufbar unter: https://pages.github.com/ 
+* Codecademy, abrufbar unter: https://www.codecademy.com/ 
+* GitHub Pages, abrufbar unter: https://pages.github.com/ 
 
 
 ### HTML
